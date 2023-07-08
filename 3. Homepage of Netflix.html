@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix - Homepage</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="netflix-logo.png" alt="Netflix Logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New & Popular</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </nav>
+    <div class="hero-section">
+      <h1>Welcome to Netflix</h1>
+      <p>Unlimited movies, TV shows, and more.</p>
+      <a href="#" class="btn btn-primary">Get Started</a>
+    </div>
+  </header>
+
+  <section class="featured-section">
+    <h2>Featured Content</h2>
+    <!-- Featured content tiles or carousels go here -->
+  </section>
+
+  <section class="categories-section">
+    <h2>Popular Categories</h2>
+    <!-- Popular categories tiles or carousels go here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Netflix. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+header .hero-section {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: red;
+}
+
+.featured-section,
+.categories-section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+}
